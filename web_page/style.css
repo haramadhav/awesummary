@@ -1,0 +1,119 @@
+hr 
+{
+	border-width: 2px;
+	border-color: black;
+	background-color: black;
+	color: black;
+	
+}
+
+h1 {
+    color: green;
+}
+
+
+h2 {
+    color: green;
+}
+
+#welcome
+{
+    color: green;
+    font-size: 32px;
+}
+
+input[type=text], select
+{
+    width: 20%;
+    padding: 12px 20px; 
+    border: 1px solid #ccc;
+    border-radius:20px;
+    box-sizing: border-box;
+    
+}
+
+input[type=password], select
+{
+    width: 20%;
+    padding: 12px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+}
+
+input[name=coursename]
+{
+    width: 80%;
+    padding: 12px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+}
+
+
+textarea, select
+{
+    
+    padding: 12px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+
+.button
+{
+    background-color: #4CAF50; 
+    color: white;
+    padding: 16px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-transition-duration: 0.01s;
+}
+
+.bigbutton {border-radius: 80%;}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: red;
+}
+
+::-webkit-input-placeholder 
+{
+   text-align: center;
+}
+
+::-webkit-textarea-placeholder 
+{
+   text-align: center;
+   margin-top: 20px;
+}
+
+table 
+{
+    width: 100%;
+    text-align: center;
+}
+
+tr
+{
+    background-color: #f2f2f2;
+}
+
+tr:hover 
+{
+    background-color: #ddd;
+    
+}
+
+th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #0079ff;
+    color: white;
+}
